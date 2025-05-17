@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* General Reset */
+/* This website is mainly about one of my favorite Yugioh Decks of all time, The Weather Painters. Also I only put in key cards instead of an entire deck only because deck building is subjective and differ from person to person.*/
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13714538-e319-4cce-9062-6941ce18525d/dihr1kz-55a99c63-b893-4c41-8a94-d0f572b78c5d.png/v1/fill/w_1191,h_671,q_70,strp/the_weather_painter_rainbow__wallpaper__by_nhociory_dihr1kz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvMTM3MTQ1MzgtZTMxOS00Y2NlLTkwNjItNjk0MWNlMTg1MjVkXC9kaWhyMWt6LTU1YTk5YzYzLWI4OTMtNGM0MS04YTk0LWQwZjU3MmI3OGM1ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yNGCxaB52xRvb-9zThDNAqGgHrCRpoFL07r_PPhctvM");
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  background-size: cover;
+}
+.navbar { 
+  margin-top: 50px;
+  font-family:'Brush Script MT', cursive;
+  font-size: 2em;
+  text-shadow: 2px 2px 8px black;
+  list-style-type: none;
+  text-align: center;
+}
+.navbar a{
+  color: #9667E0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar a:hover {
+  color: #967BB6;
+}
+.navbar a:visited {
+  color: #FECCFF;
+}
+.navbar a:active {
+  color: #CAFFBF;
+}
+.navbar li {
+  display: inline;
+}
+#p1, #p2, #p4 {
+  width: 30%;
+  color: #FFD6A5;
+  text-shadow: 2px 2px 8px black;
+  font-size: 22px;
+  padding: 1em;
+  border-radius: 2em;
+  font-family:'Brush Script MT', cursive;
+}
+#p2 {
+  background-color: #967BB6;
+}
+#p1 {
+  background-color: #A7C7E7;
+}
+#p4 {
+  background-color: #F8C8DC;
+}
+#p3 {
+  width: 27%;
+  background-color: #F8C8DC; 
+  color: #FFD6A5;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  padding-left: 1em;
+  border-radius: 1em;
+  text-shadow: 2px 2px 8px black;
+}
+/*Footer Styles */
+.footer {
+  width: 100%;
+  height: 300px;
+  color: black;
+  text-shadow: 2px 2px 8px black;
+  font-size: 1.1em;
+}
+
+.button {
+  background-color: #A7C7E7;
+  color: black:
+  border-radius: .25em;
+  padding-top: 3px;
+  border: 0%;
+  margin: 0%;
+  font-size: larger;
+}
+@font-face {
+  font-family:'Brush Script MT', cursive;
+}
+h1 {
+  font-family:'Brush Script MT', cursive;
+  font-size: 30px;
+  padding-left: 20%;
+  text-shadow: 3px 3px 3px black;
+  color: #8093F1;
+}
+h2 {
+  font-family:'Brush Script MT', cursive;
+  font-size: 30px;
+  padding-left: 20%;
+  text-shadow: 3px 3px 3px black;
+  color: #8093F1;
+}
+.flex-container {
+  display: flex;
+  background-color: #F7ADC3;
+  padding: 10px;
+  margin-top: 170px;
+  max-width: 1900px;
+}
+.flex-container > div {
+  background-color: #A7C7E7;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#p1 img {
+  width: 250px;
+  height: auto;
+}
+#p2 img {
+  width: 250px;
+  height: auto;
+}
+#p3 img {
+  width: 250px;
+  height: auto;
+}
