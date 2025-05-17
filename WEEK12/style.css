@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* General Reset */
+
+/* Weather Painters BEST */
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  color: azure;
+  
+}
+body{
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13714538-e319-4cce-9062-6941ce18525d/dihr1kz-55a99c63-b893-4c41-8a94-d0f572b78c5d.png/v1/fill/w_1191,h_671,q_70,strp/the_weather_painter_rainbow__wallpaper__by_nhociory_dihr1kz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIxIiwicGF0aCI6IlwvZlwvMTM3MTQ1MzgtZTMxOS00Y2NlLTkwNjItNjk0MWNlMTg1MjVkXC9kaWhyMWt6LTU1YTk5YzYzLWI4OTMtNGM0MS04YTk0LWQwZjU3MmI3OGM1ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yNGCxaB52xRvb-9zThDNAqGgHrCRpoFL07r_PPhctvM");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 10%;
+
+}
+.header{
+  display: flex;
+  justify-content: center;
+  
+}
+.header img {
+  width: 50%;
+  opacity: 0.5;
+}
+
+
+.column {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+
+.column img {
+  float: left;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.navbar{
+  margin-top: 50px;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2em;
+  text-shadow: 3px 3px 10px rgb(253, 4, 4);
+  list-style-type: none;
+  
+}
+
+.navbar a{
+  color: #E7E419;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+
+}
+.navbar li {
+  display: inline;
+  list-style-type: none;
+}
+
+ .p1 {
+  background-color: #A7C7E7;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.p2 {
+  background-color: #967BB6;
+  border-radius: 2em;
+  padding: 1em;
+}
+.p3 {
+  background-color: #F8C8DC;
+  color: black;
+  border-radius: 2em;
+  padding: 1em;
+}
+.p1,.p2,.p3 {
+  min-height: 350px;
+}
+
+
+
+.footer {
+  background-color: #A7C7E7;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+
+.footer p {
+ 
+  text-shadow: 3px 3px 3px gray;
+  font-size: 1.5em;
+
+}
+
+.button{
+  background-color: #A7C7E7; 
+  color:black;
+  border-radius: .25em;
+  padding-top: 2px;
+  border: 0%;
+  margin: 0%;
+  font-size: larger;
+}
+
+
+/* This CSS uses the font that was downloaded in the webpage */
+@font-face {
+  font-family: 'Brush Script MT', cursive;
+ 
+}
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 100px;
+  padding-left: 20%;
+  text-shadow: 3px 3px 3px black;
+  color: #8093F1;
+}
+
+@media (max-width: 900px) {
+  .column {
+    width: 100%;
+    font-size: .75em;
+  }
+.column img {
+  height: 200px;
+  
+}
+}
+
+
+
+
+
